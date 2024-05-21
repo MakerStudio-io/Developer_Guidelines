@@ -171,7 +171,7 @@ Implement HTTPS and authorization schemes for security.
 
 ## API Documentation
 
-Keep API documentation current with tools like Postman or Swagger.
+Keep API documentation current with tools like Postman, Swagger or Bruno.
 
 ## Architectural and Data Flow Diagrams
 
@@ -181,11 +181,19 @@ Document architectural and data flow diagrams for clarity.
 
 Explain the rationale ("why") rather than the mechanics ("what") in comments.
 
+## Demo Videos
+
+Record demo videos of the specific UI section or page when creating PRs, using screen recording tools like [Loom](https://www.loom.com/) or [Screenity](https://github.com/alyssaxuu/screenity), in order to understand the changes for the frontend. - Credits to Aditya Rawat for the idea
+
 ## Issue Tracking and Daily Updates
 
 Use issue trackers for tasks and provide daily updates on progress.
 
 # Additional Rules
+
+## Managing Technical Backlog
+
+When working on open issues or tasks, document any problems faced and their respective solutions by commenting on the corresponding GitHub issue. This helps in managing the technical backlog and serves as a reference for future work on similar issues.
 
 ## Detailed Task Management
 
