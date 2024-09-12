@@ -61,21 +61,6 @@ end
 
 # Database Design
 
-## Append-Only Design
-
-Tables should only append data, maintaining a history of changes.
-
-Example:
-
-```sql
-CREATE TABLE user (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    is_latest BOOLEAN DEFAULT TRUE
-);
-```
-
 ## Normalization Based on Rate of Change
 
 Organize data into tables based on the frequency of changes.
